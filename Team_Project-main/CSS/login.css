@@ -66,3 +66,169 @@ h1:after {
   position: absolute;
   
 }
+
+/*Register Form*/
+*{
+	box-sizing: border-box
+	}
+
+
+
+/*Styling labels */
+label {
+	font-weight: 7;
+	margin-top: 100;
+	color: #666666;
+	width: 100%;
+	padding: 14px 0px;	
+	width: 100%;
+}
+
+/*Styling Heading 2*/
+h2 {
+	margin-top: 100;
+	color: #666666;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+	padding: 14px 0px;	
+}
+
+/*Styling Writing */
+p{
+	
+	margin-top: 100;
+	color: #666666;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	padding: 14px 0px;	
+	font-weight: 7;
+	width: 100%;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 1px 0 22px 0;
+	color: #666666;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  width: 100%;
+  float: left;
+
+  
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #B9D8D2;
+  color: #666666;
+  color: #666666;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  	background: #A7C8C2;
+	border-color: transparent;
+	color: #666666;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #e6ffe6;
+
+}
+
+/* Extra styles for the register button */
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #B9D8D2;
+}
+	
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  background-color: #B9D8D2;
+}
+
+
+
+/*Styling Heading 3*/
+h3 {
+	margin-top: 100;
+	color: #666666;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+	padding: 14px 0px;	
+}
+
+.loginbtn {
+  padding: 14px 20px;
+  background-color: #B9D8D2;
+  color: #666666;
+  width: 100%
+}
+
+#form1 {
+	width: 48.5%;
+	padding-right: 1.5%;
+	float: left;
+}
+
+#form2 {
+	width: 48.5%;
+	padding-left: 1.5%;
+	float: right;
+}
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
