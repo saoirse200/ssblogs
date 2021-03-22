@@ -67,4 +67,81 @@ h1:after {
   
 }
 
+body {
+  font-family: Georgia, Times, serif;
+  text-align: center;
+}
 
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 98%;
+
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/*Styling Heading 2*/
+h2 {
+	font-family: Georgia, Times, serif;
+	margin-top: 10;
+	color: #666666;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;	
+	font-weight: 7;
+}
+
+/*Style writing*/
+p{
+	font-family: Georgia, Times, serif;
+	margin-top: 100;
+	color: #666666;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	padding: 14px 0px;	
+	font-weight: 7;
+	width: 100%;
+}
+
+img {
+	padding: 20px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  width: 100%;
+  
+}
