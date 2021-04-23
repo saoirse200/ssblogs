@@ -1,6 +1,9 @@
 /* Removing Bullet Points From List*/
+
+
 ul {
 	list-style-type: none;
+	width:100%;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -33,11 +36,9 @@ li a:hover {
 /*Styling Heading 1 */
 h1 {
 	text-align: center;
+	padding-right: 23px;
 	margin: 30px auto;
-	font-family: Georgia, Times, serif;
-	font-size: 45px;
-	font-weight: 7;
-	max-width: 500px;
+	max-width: 600px;
 	position: relative;
 	
 }
@@ -46,7 +47,7 @@ h1 {
 h1:before {
   content: "";
   display: block;
-  width: 543px;
+  width: 605px;
   height: 1px;
   background: #000;
   left: -400px;
@@ -58,7 +59,7 @@ h1:before {
 h1:after {
   content: "";
   display: block;
-  width: 607px;
+  width: 670px;
   height: 1px;
   background: #000;
   right: -400px;
@@ -67,11 +68,75 @@ h1:after {
   
 }
 
+/*blog*/
+
+body {
+  font-family: Arial;
+ 
+  background: #f1f1f1;
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 40px;
+}
+
+/*  image */
+.img {
+  width: 95%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
-    background: #ddd;
   margin-top: 20px;
   font-family: Georgia, Times, serif;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+ol li {
+	float: left;
+	display: block;
 }

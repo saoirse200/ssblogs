@@ -33,11 +33,9 @@ li a:hover {
 /*Styling Heading 1 */
 h1 {
 	text-align: center;
+	padding-right: 23px;
 	margin: 30px auto;
-	font-family: Georgia, Times, serif;
-	font-size: 45px;
-	font-weight: 7;
-	max-width: 500px;
+	max-width: 600px;
 	position: relative;
 	
 }
@@ -46,7 +44,7 @@ h1 {
 h1:before {
   content: "";
   display: block;
-  width: 543px;
+  width: 625px;
   height: 1px;
   background: #000;
   left: -400px;
@@ -58,7 +56,7 @@ h1:before {
 h1:after {
   content: "";
   display: block;
-  width: 607px;
+  width: 648px;
   height: 1px;
   background: #000;
   right: -400px;
@@ -127,21 +125,65 @@ p{
 	font-family: Georgia, Times, serif;
 	margin-top: 100;
 	color: #666666;
-	text-transform: uppercase;
 	width: 100%;
 	text-align: center;
 	font-size: 15px;
 	padding: 14px 0px;	
+
 	font-weight: 7;
-	width: 100%;
 }
 
 img {
-	padding: 20px;
+	padding-left: 125px;
+	padding-right: 125px;
 }
 
 hr {
   border: 1px solid #f1f1f1;
   width: 100%;
   
+}
+
+.img {
+	padding: 1px;
+}
+
+h5 {
+	font-family: Georgia, Times, serif;
+	color: #666666;
+	text-align: center;
+	font-weight: 3px;
+}
+
+button {
+  background-color: #B9D8D2;
+  color: #666666;
+  color: #666666;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  	background: #A7C8C2;
+	border-color: transparent;
+	color: #666666;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+    background: #ddd;
+  margin-top: 20px;
+  font-family: Georgia, Times, serif;
 }
