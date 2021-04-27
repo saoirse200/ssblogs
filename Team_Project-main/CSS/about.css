@@ -33,11 +33,9 @@ li a:hover {
 /*Styling Heading 1 */
 h1 {
 	text-align: center;
+	padding-right: 23px;
 	margin: 30px auto;
-	font-family: Georgia, Times, serif;
-	font-size: 45px;
-	font-weight: 7;
-	max-width: 500px;
+	max-width: 600px;
 	position: relative;
 	
 }
@@ -46,7 +44,7 @@ h1 {
 h1:before {
   content: "";
   display: block;
-  width: 543px;
+  width: 592px;
   height: 1px;
   background: #000;
   left: -400px;
@@ -58,13 +56,114 @@ h1:before {
 h1:after {
   content: "";
   display: block;
-  width: 607px;
+  width: 659px;
   height: 1px;
   background: #000;
   right: -400px;
   top: 50%;
   position: absolute;
   
+}
+
+
+body {
+  font-family: Georgia, Times, serif;
+  margin: 0;
+  text-align: center;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+.row {
+	
+	padding: 100px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column1 {
+
+  float: left;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+.column2 {
+ float: right;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #ddd;
+  color: black;
+}
+
+.Values
+{
+  padding: 50px;
+  text-align: center;
+  color: black;
+}
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column1 {
+    width: 100%;
+    display: ;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .column2 {
+    width: 100%;
+    display: ;
+  }
 }
 
 /* Footer */
